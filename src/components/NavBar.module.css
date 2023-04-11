@@ -1,0 +1,41 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(191, 191, 191);
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    gap: 16px;
+    padding-right: 24px;
+}
+
+.link {
+    font-family: articulat-cf,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+}
+
+.uzi {
+    width: 50px;
+    border-radius: 8px;
+}
+
+.name {
+    font-family: articulat-heavy-cf,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+}
