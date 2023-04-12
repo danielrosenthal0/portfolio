@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'circular book';
+    src: url('./Components/Fonts/CircularStd-Book.ttf');
+}
+
+@font-face {
+    font-family: 'circular book bold';
+    src: url('./Components/Fonts/CircularStd-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'circular book bold italic';
+    src: url('./Components/Fonts/CircularStd-BoldItalic.ttf');
+}
+
+:root {
+    --primary-color: #25adc5;
+    --secondary-color: #acacac;
+    --tertiary-color: #45bab5;
+    --bold-font: 'circular book bold italic';
+    --heading-font: 'circular book bold';
+    --body-font: 'circular book';
+    
+}
