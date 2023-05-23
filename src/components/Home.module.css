@@ -45,3 +45,28 @@
     text-underline-offset: 3px;
     text-decoration-thickness: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .uzi {
+        width: 100%;
+        max-width: 200px;
+        transform: translate(0%);
+    }
+
+    .intro, .intro2 {
+        width: 100%;
+        max-width: 300px;
+        font-size: 1rem;
+        transform: translate(0%,0%);
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .underline {
+        text-decoration-thickness: 2px;
+    }
+}

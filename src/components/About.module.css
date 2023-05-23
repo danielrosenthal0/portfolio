@@ -30,3 +30,28 @@
     top: 50%;                         /* vertical alignment */
     transform: translate(-50%, -60%);
 }
+
+@media only screen and (max-width: 600px) {
+
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .intro, .intro2 {
+        width: 100%;
+        max-width: 300px;
+        font-size: 1rem;
+        transform: translate(0%,0%);
+    }
+    .about {
+        width: 100%;
+    }
+    .cannon {
+        max-width: 250px;
+        width: 100%;
+        transform: translate(0%);
+    }
+
+}

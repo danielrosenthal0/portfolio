@@ -22,3 +22,7 @@
     --body-font: 'circular book';
     
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from "./Components/NavBar";
-import BottomNav from "./Components/BottomNav";
+// import BottomNav from "./Components/BottomNav";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
@@ -15,7 +15,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/projects" element={<Projects/>}/>
       </Routes>
-      <BottomNav/>
+      {/* <BottomNav/> */}
     </Router>
   );
 }
