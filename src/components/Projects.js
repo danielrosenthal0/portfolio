@@ -26,14 +26,14 @@ const ProjectData = [
     id: 2,
     title: "Lionize.ai Internship",
     description: [
-      "I had a data analytics internship with Lionize.ai, a startup focused on the influencer marketing cycle founded by a few Wake Forest grads",
+      'I had a data analytics internship with <a href="https://lionize.ai/" class="active" target="_blank" rel="noopener noreferrer">Lionize.ai</a>, a startup focused on the influencer marketing cycle founded by a few Wake Forest grads',
       "Lionize is essentially the middleman between large businesses and influencers: businesses hire Lionize to help them find new influencers to potentially market their specific product and Lionize uses proprietary algorithms to help scope out these influencers",
       "This was my first foray into data analytics and my job was to help create some of these algorithms and work on decision trees as to what makes a good influencer",
       "I scraped all the posts on specific hashtags on Instagram - for instance, #yoga for the meditation app Calm - and compiled the list of accounts in Excel",
       "I would then calculate which profile characteristics - followers, location, engagement, number of comments, number of posts, whether they had a link in their profile - were the best signs of someone being a good influencer by comparing these numbers to a visual analysis of the profile using Python",
       "I was then able to determine which profiles were ideal and then expanded this analysis from a small dataset to a larger one, and Lionize was then able to reach out to these potential influencers",
       "I was relatively successful and was able to increase the number of influencer submissions to Lionize significantly",
-      '<a href="https://lionize.ai/" class="active" target="_blank" rel="noopener noreferrer">Here</a> is the Lionize website',
+  
     ],
     images: [],
     video: "",
@@ -42,7 +42,10 @@ const ProjectData = [
     id: 3,
     title: "Alquimia Analytica Internship",
     description: [
-      "Alquimia Analytica is a data analytics firm based in Costa Rica",
+      '<a href=”https://www.alquimiaanalytica.com/en/” class=”active” target="_blank" rel="noopener noreferrer">Alquimia Analytica</a> is a data analytics firm based in San Jose, Costa Rica',
+      "I was able to work remotely and learned how to work with Power BI dashboards over the course of this internship",
+      "I was able to fully recreate a dashboard for a Costa Rican travel agency that had multiple faulty connections between databases",
+      "This was a great opportunity for me to begin learning about relational databases, Power BI, and the visual capabilities of these dashboards and the insights they can provide",
     ],
     images: [],
     video: "",
