@@ -23,6 +23,13 @@ const ProjectData = [
     video: demo,
   },
   {
+    id: 6,
+    title: "Pololu Romi Robot",
+    description: [
+      "In my robotics class senior year, I was able to work on a Pololu Romi robot."
+    ]
+  },
+  {
     id: 2,
     title: "Lionize.ai Internship",
     description: [
