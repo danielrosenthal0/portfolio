@@ -20,7 +20,7 @@ const About = () => {
             <p className={styles.intro}>
               My name is Daniel Rosenthal and I live in NYC. I am 22 years
               old and I just recently graduated Wake Forest University in
-              Winston-Salem, North Carolina.
+              Winston-Salem, North Carolina. I am originally from just outside Philadelphia.
             </p>
           </FadeInOnScroll>
           <FadeInOnScroll>
@@ -28,7 +28,7 @@ const About = () => {
               I majored in engineering with a concentration in computer and
               electrical engineering. I also minored in computer science and
               mathematics. I have wide array of interests and I am always
-              looking for a new project. I am looking for full-time roles as a full-stack dev. 
+              looking for a new project. 
               I am a fast-learner, creative problem solver, and I am
               very eager to learn new technologies. I believe there is no
               problem I cannot tackle and I am eager to dive into industry and
