@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from "./Components/NavBar";
-// import BottomNav from "./Components/BottomNav";
+import BottomNav from "./Components/BottomNav";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
+import ProjectDetail from "./Components/ProjectDetail"
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/projects" element={<Projects/>}/>
+        <Route path="/projects/:id" element={<ProjectDetail />} />
       </Routes>
-      {/* <BottomNav/> */}
+      <BottomNav/>
     </Router>
   );
 }

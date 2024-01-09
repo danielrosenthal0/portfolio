@@ -14,5 +14,13 @@
 }
 
 .content {
-    background-color: var(--primary-color);
+    background-color: rgb(215, 215, 215);
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    gap: 16px;
+    padding-right: 24px;
 }
