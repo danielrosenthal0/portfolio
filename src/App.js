@@ -10,14 +10,17 @@ import ProjectDetail from "./Components/ProjectDetail"
 function App() {
   return (
     <Router>
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <NavBar/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-        <Route path="/projects/:id" element={<ProjectDetail/>} />
-      </Routes>
-      <BottomNav/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/projects/:id" element={<ProjectDetail/>} />
+        </Routes>
+        <BottomNav/>
+    </div>
+      
     </Router>
   );
 }

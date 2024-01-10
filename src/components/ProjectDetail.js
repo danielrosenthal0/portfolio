@@ -6,7 +6,6 @@ const ProjectDetail = () => {
   const { id } = useParams();
   const projectId = id;
 
-  // Find the project data based on the ID
   const project = ProjectData.find((p) => p.id === projectId);
 
   if (!project) {
@@ -19,7 +18,6 @@ const ProjectDetail = () => {
     <div>
       <h2>{title}</h2>
       <p>{description}</p>
-      {/* Display images, videos, or additional information */}
     </div>
   );
 };

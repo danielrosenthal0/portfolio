@@ -1,13 +1,17 @@
+// ProjectCard.js
 import React from "react";
 import { Link } from 'react-router-dom';
-
+import styles from './ProjectCard.module.css';
 
 const ProjectCard = ({ id, title, description, images, video }) => {
   return (
-    <div>
+    <div className={styles.cardContainer}>
       <Link to={`/projects/${id}`}>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <div className={styles.cardBackground}></div>
+        <div className={styles.cardContent}>
+            <h2>{title}</h2>
+            <p>{description}</p>
+        </div>
       </Link>
     </div>
   );
