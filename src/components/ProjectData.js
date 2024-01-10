@@ -6,7 +6,7 @@ import ultragif from "./Assets/ultrasoniceyes.gif";
 
 const ProjectData = [
   {
-    id: 1,
+    id: "hyzerberg-technologies",
     title: "Engineering Capstone Project",
     description: [
       '<a class="active" href="hyzerbergtechnologies.com" target="_blank" rel="noopener noreferrer">Here</a> is our super-duper cool website I built for my team - it goes into a bit more detail than I do here',
@@ -20,14 +20,14 @@ const ProjectData = [
     video: demo,
   },
   {
-    id: 6,
+    id: "smart-robot",
     title: "Pololu Romi Robot",
     description: [
       "In my robotics class senior year, I was able to work on a Pololu Romi robot."
     ]
   },
   {
-    id: 2,
+    id: "lionize",
     title: "Lionize.ai Internship",
     description: [
       'I had a data analytics internship with <a href="https://lionize.ai/" class="active" target="_blank" rel="noopener noreferrer">Lionize.ai</a>, a startup focused on the influencer marketing cycle founded by a few Wake Forest grads',
@@ -43,7 +43,7 @@ const ProjectData = [
     video: "",
   },
   {
-    id: 3,
+    id: "alquimia-analytica",
     title: "Alquimia Analytica Internship",
     description: [
       '<a href=”https://www.alquimiaanalytica.com/en/” class=”active” target="_blank" rel="noopener noreferrer">Alquimia Analytica</a> is a data analytics firm based in San Jose, Costa Rica',
@@ -55,7 +55,7 @@ const ProjectData = [
     video: "",
   },
   {
-    id: 4,
+    id: "ultrasonic",
     title: "Ultrasonic Eyes",
     description: [
       "Ultrasonic eyes was a project in my electrical engineering class junior year",
@@ -69,7 +69,7 @@ const ProjectData = [
     video: "",
   },
   {
-    id: 5,
+    id: "research",
     title: "Summer 2021 Research",
     description: [
       "Over the summer of 2021, I worked in Professor Kyle Luthy's Lab at Wake Forest University. While this was a remote position due to COVID, I was able to work on a few things to assist in his research",
