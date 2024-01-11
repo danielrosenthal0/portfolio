@@ -1,1 +1,9 @@
- 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(215, 215, 215);
+  flex: 1;
+  
+  padding: 20px
+}

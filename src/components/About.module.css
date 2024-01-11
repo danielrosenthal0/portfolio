@@ -1,14 +1,15 @@
 .cannon {
     width:400px;
     position: relative;
-    border-radius: 12px;
-    transform: translate(-50%);
+    border-radius: 100px;
+    transform: translate(-30%);
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(215, 215, 215);
 }
 
 .about {
@@ -20,15 +21,21 @@
 }
 
 .intro {
-    left: 50%;                        /* horizontal alignment */
-    top: 50%;                         /* vertical alignment */
+    left: 50%;
+    top: 50%;
     transform: translate(60%, -40%);
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 16px;
 }
 
 .intro2 {
-    left: 50%;                        /* horizontal alignment */
-    top: 50%;                         /* vertical alignment */
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -60%);
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 16px;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,8 +1,8 @@
 .uzi {
-    width: 100%;
+    width: 50%;
     border-radius: 150px;
     position: relative;
-    transform: translate(-20%, 0%);
+    transform: translate(10%, 0%);
 }
 
 img {
@@ -10,41 +10,35 @@ img {
 }
 
 .content {
-    background-color: white;
     display: flex;
     flex-direction: column;
-    padding: 12px;
     align-items: center;
-    
+    background-color: rgb(215, 215, 215);
+}
+
+.home {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 24px;
+    width: 40%;
+    text-align: center;
 }
 
 .intro {
-    font-family: var(--body-font);
-    font-weight: 400;
-    font-style: normal;
-    max-width: 500px;
-    width: 100%;
-    text-align: center;
-    font-size: 36px;
-    left: 50%;                        /* horizontal alignment */
-    top: 50%;                         /* vertical alignment */
-    transform: translate(50%, -80%);
+    max-width: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(90%, -80%);
     background-color: lightblue;
     padding: 20px;
     border-radius: 16px;
 }
 
 .intro2 {
-    font-family: var(--body-font);
-    font-weight: 400;
-    font-style: normal;
-    max-width: 500px;
-    width: 100%;
-    text-align: center;
-    font-size: 36px;
-    left: 50%;                        /* horizontal alignment */
-    top: 50%;                         /* vertical alignment */
-    transform: translate(-50%, -80%);
+    max-width: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-00%, -140%);
     background-color: lightblue;
     padding: 20px;
     border-radius: 16px;

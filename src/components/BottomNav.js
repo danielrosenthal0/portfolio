@@ -12,11 +12,11 @@ const BottomNav = () => {
                 className={location.pathname === '/' ? `${styles.link} ${styles.active}` : styles.link}>
                 Home
                 </Link>
-                {/* <Link 
+                <Link 
                 to="/about" 
                 className={location.pathname === '/about' ? `${styles.link} ${styles.active}` : styles.link}>
                 Contact
-                </Link> */}
+                </Link>
                 </div>
             </div>
         </Fragment>
