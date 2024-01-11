@@ -41,6 +41,18 @@ const ProjectCardData = [
     description: "Using cameras on drones to monitor controlled wildfire burns",
     images: null
   },
+  {
+    id: "face-api",
+    title: "In-Browser Facial Recognition",
+    description: "Using face-api to run real-time facial recognition in the browser",
+    images: null
+  },
+  {
+    id: "nba-free-agency",
+    title: "NBA Free Agency Website",
+    description: "Website that tracks NBA free agency as it occurs, drawing a map as players move around the league",
+    images: null
+  },
 ];
 
 export default ProjectCardData;
