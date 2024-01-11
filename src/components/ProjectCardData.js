@@ -1,5 +1,11 @@
 const ProjectCardData = [
   {
+    id: "bithoop",
+    title: "Bithoop",
+    description: "Full-stack software engineering for a small startup",
+    image: null
+  },
+  {
     id: "hyzerberg-technologies",
     title: "Hyzerberg Technologies",
     description: "Creating a disc golf simulator for senior Capstone project",
@@ -8,31 +14,31 @@ const ProjectCardData = [
   {
     id: "smart-robot",
     title: "Smart Robot",
-    description: "",
+    description: "Using a Romi Pololu Robot in smart applications",
     images: null
   },
   {
     id: "lionize",
     title: "Lionize",
-    description: "",
+    description: "Data analytics for a tech startup working with influencers",
     images: null
   },
   {
     id: "ultrasonic",
     title: "Ultrasonic Eyes",
-    description: "",
+    description: "Custom toy that follows a user across the room with LED eyes",
     images: null
+  },
+  {
+    id: "fantasy",
+    title: "Fantasy Premier League Mobile App",
+    description: "Redesigning the FPL mobile app experience",
+    image: null
   },
   {
     id: "research",
-    title: "Research",
-    description: "",
-    images: null
-  },
-  {
-    id: "alquimia-analytica",
-    title: "Alquimia Analytica",
-    description: "",
+    title: "Stereo Vision Wildfire Drone Research",
+    description: "Using cameras on drones to monitor controlled wildfire burns",
     images: null
   },
 ];
