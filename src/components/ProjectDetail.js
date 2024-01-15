@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import ProjectData from "./ProjectData";
-import styles from './ProjectDetail.module.css';
+import styles from "./ProjectDetail.module.css";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -19,15 +19,25 @@ const ProjectDetail = () => {
     <div className={styles.content}>
       <h2 className={styles.title}>{title}</h2>
       <ul className={styles.description}>
-        {description ? description.map((item, index) => (
-          <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
-        )) : <p>No project description. Check back soon.</p>}
+        {description ? (
+          description.map((item, index) => (
+            <li
+              key={index}
+              dangerouslySetInnerHTML={{ __html: item }}
+              className={styles.descriptionItem}
+            />
+          ))
+        ) : (
+          <p>No project description. Check back soon.</p>
+        )}
       </ul>
-      {images ? images.map((image) => {
-        return (
-          <img src={image} alt=""/>
-        )
-      }) : null}
+      {images ? (
+        <div className={styles.images}>
+          {images.map((image) => {
+            return <img src={image} alt="" />;
+          })}
+        </div>
+      ) : null}
     </div>
   );
 };

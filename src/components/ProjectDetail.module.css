@@ -2,20 +2,35 @@
   background-color: rgb(215, 215, 215);
   font-family: var(--body-font);
   flex: 1;
-}
-
-p {
-  max-width: 500px;
-}
-
-.description {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+
+.description {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  flex: 1
 }
 
 .title {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  padding: 24px;
+  max-width: 500px;
+}
+
+.descriptionItem {
 }
