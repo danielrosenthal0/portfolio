@@ -85,6 +85,12 @@ const ProjectData = [
     images: [],
     video: "",
   },
+  {
+    id: "bithoop"
+  },
+  {
+    id: "fantasy"
+  }
 ]
 
 export default ProjectData;

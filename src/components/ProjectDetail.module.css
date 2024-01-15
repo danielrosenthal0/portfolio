@@ -1,0 +1,21 @@
+.content {
+  background-color: rgb(215, 215, 215);
+  font-family: var(--body-font);
+  flex: 1;
+}
+
+p {
+  max-width: 500px;
+}
+
+.description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
