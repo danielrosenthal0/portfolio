@@ -9,7 +9,7 @@ const ProjectData = [
     id: "hyzerberg-technologies",
     title: "Engineering Capstone Project",
     description: [
-      '<a class="active" href="http://hyzerbergtechnologies.com" target="_blank" rel="noopener noreferrer">Here</a> is our super-duper cool website I built for my team - it goes into a bit more detail than I do here',
+      '<a class="active" href="hyzerbergtechnologies.com" target="_blank" rel="noopener noreferrer">Here</a> is our super-duper cool website I built for my team - it goes into a bit more detail than I do here',
       "My senior Engineering Capstone Project was focused on building a disc golf simulator, similar to a traditional golf simulator you may see in a barcade or local golf store",
       "I worked with three other students to eventually create a working prototype over the course of our school year",
       "The prototype consisted of a reComputer J1020 NVIDIA Jetson Nano module computer, two CSI cameras interfacing with the J1020, and a customized rig and netting to house the simulator",
@@ -23,8 +23,7 @@ const ProjectData = [
     id: "smart-robot",
     title: "Pololu Romi Robot",
     description: [
-      "Developed software functionalities for a Pololu Romi robot during my senior year robotics class.",
-      "Implemented algorithms and control systems to enhance the robot's performance and capabilities."
+      "In my robotics class senior year, I was able to work on a Pololu Romi robot."
     ]
   },
   {
@@ -86,23 +85,6 @@ const ProjectData = [
     images: [],
     video: "",
   },
-  {
-    id: "bithoop",
-    title: "Bithoop",
-    description: [
-      "Served as a Junior Software Engineer at Bithoop, a startup revolutionizing information management.",
-      "Developed and maintained a React.js web application with Node.js, AWS Lambda, DynamoDB, Stripe CLI, and the Serverless framework.",
-      "Architected a full-stack Box API connection and implemented dynamic link-tracking features, resulting in increased user engagement."
-    ]
-  },
-  {
-    id: "fantasy",
-    title: "Fantasy Premier League Mobile App",
-    description: [
-      "Developed a React Native mobile application utilizing the Premier League Fantasy API.",
-    "Enhanced the user experience by offering a streamlined and visually appealing way for users to monitor their Fantasy Premier League teams, matchups, and live scores."
-    ]
-  }
 ]
 
 export default ProjectData;

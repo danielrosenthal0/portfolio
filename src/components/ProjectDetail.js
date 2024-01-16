@@ -23,9 +23,10 @@ const ProjectDetail = () => {
           description.map((item, index) => (
             <li
               key={index}
-              dangerouslySetInnerHTML={{ __html: item }}
+              
               className={styles.descriptionItem}
-            />
+            >  {React.createElement('span', { dangerouslySetInnerHTML: { __html: item } })}
+            </li>
           ))
         ) : (
           <p>No project description. Check back soon.</p>
