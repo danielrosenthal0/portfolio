@@ -13,7 +13,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(215, 215, 215);
+    background-color: black;
 }
 
 .home {
@@ -22,6 +22,7 @@ img {
     font-size: 24px;
     width: 40%;
     text-align: center;
+    color: white;
 }
 
 .intro {
@@ -29,9 +30,10 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(90%, -80%);
-    background-color: lightblue;
+    
     padding: 20px;
     border-radius: 16px;
+    color: white;
 }
 
 .intro2 {
@@ -39,9 +41,10 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-00%, -140%);
-    background-color: lightblue;
+    
     padding: 20px;
     border-radius: 16px;
+    color: white;
 }
 
 .underline {

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(215, 215, 215);
+    background-color: black;
 }
 
 .pages {
@@ -11,6 +11,7 @@
     padding: 12px;
     gap: 16px;
     padding-right: 24px;
+    color: white;
 }
 
 .link {
@@ -18,7 +19,7 @@
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .link.active, .link :hover{
@@ -47,6 +48,7 @@
     font-weight: 900;
     font-style: normal;
     font-size: 48px;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {

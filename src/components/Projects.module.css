@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(215, 215, 215);
+  background-color: black;
   flex: 1;
-  
-  padding: 20px
+  padding: 20px;
+  font-family: var(--body-font);
 }

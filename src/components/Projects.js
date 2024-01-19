@@ -1,7 +1,5 @@
 import React, { Fragment } from "react";
-import Project from "./Project";
 import classes from "./Projects.module.css";
-import ProjectData from "./ProjectData";
 import ProjectCardData from "./ProjectCardData";
 import ProjectCard from "./ProjectCard";
 

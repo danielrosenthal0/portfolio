@@ -1,9 +1,9 @@
 .link {
-    font-family: articulat-cf,sans-serif;
+    font-family: var(--body-font);
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
-    color:rgb(31, 29, 31);
+    color:white;
 }
 
 .link.active, .link :hover{
@@ -14,7 +14,7 @@
 }
 
 .content {
-    background-color: rgb(215, 215, 215);
+    background-color: black;
 }
 
 .pages {
