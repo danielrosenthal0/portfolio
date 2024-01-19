@@ -1,10 +1,11 @@
 .content {
-  background-color: rgb(215, 215, 215);
+  background-color: black;
   font-family: var(--body-font);
   flex: 1;
   align-items: center;
   display: flex;
   flex-direction: column;
+  color: white
 }
 
 

@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'circular book';
-    src: url('./Components/Fonts/CircularStd-Book.ttf');
+    src: url('./Components/Fonts/SpaceMono-Regular.ttf');
 }
 
 @font-face {
     font-family: 'circular book bold';
-    src: url('./Components/Fonts/CircularStd-Medium.ttf');
+    src: url('./Components/Fonts/SpaceMono-Bold.ttf');
 }
 
 @font-face {
     font-family: 'circular book bold italic';
-    src: url('./Components/Fonts/CircularStd-BoldItalic.ttf');
+    src: url('./Components/Fonts/SpaceMono-BoldItalic.ttf');
 }
 
 :root {
