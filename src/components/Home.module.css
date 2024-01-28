@@ -29,8 +29,7 @@ img {
     max-width: 450px;
     left: 50%;
     top: 50%;
-    transform: translate(90%, -80%);
-    
+    transform: translate(70%, -70%);
     padding: 20px;
     border-radius: 16px;
     color: white;
@@ -40,7 +39,7 @@ img {
     max-width: 450px;
     left: 50%;
     top: 50%;
-    transform: translate(-00%, -140%);
+    transform: translate(-20%, -140%);
     
     padding: 20px;
     border-radius: 16px;
