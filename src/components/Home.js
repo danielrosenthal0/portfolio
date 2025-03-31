@@ -14,17 +14,17 @@ const Home = () => {
           <FadeInOnScroll>
             <p className={styles.intro}>
               Hey! 👋 I'm <span className={styles.underline}>Daniel</span> and
-              this is my website. I just recently graduated Wake Forest University and this website is a
-              collection of my work and hobbies.
+              this is my website. I am a software engineer working at threshold.world.
             </p>
           </FadeInOnScroll>
           <FadeInOnScroll>
-            <p className={styles.intro2}>
+            {/* <p className={styles.intro2}>
               I am actively pursuing jobs as a{" "}
               <span className={styles.underline}>software engineer</span>.{" "}
               Please feel free to look around and
               contact me with any questions!
-            </p>
+            </p> */}
+            <p>This website is meant to showcase some of my side projects I've worked on recently as well as any cool stuff I'm doing at work!</p>
           </FadeInOnScroll>
         </div>
 
