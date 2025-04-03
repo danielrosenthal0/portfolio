@@ -18,13 +18,7 @@ const Home = () => {
             </p>
           </FadeInOnScroll>
           <FadeInOnScroll>
-            {/* <p className={styles.intro2}>
-              I am actively pursuing jobs as a{" "}
-              <span className={styles.underline}>software engineer</span>.{" "}
-              Please feel free to look around and
-              contact me with any questions!
-            </p> */}
-            <p>This website is meant to showcase some of my side projects I've worked on recently as well as any cool stuff I'm doing at work!</p>
+            <p className={styles.intro2}>This website is meant to showcase some of my side projects I've worked on recently as well as any cool stuff I'm doing at work!</p>
           </FadeInOnScroll>
         </div>
 

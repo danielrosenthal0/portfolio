@@ -1,5 +1,11 @@
 const ProjectCardData = [
   {
+    id: "threshold",
+    title: "threshold.world",
+    description: "Full-stack software engineering for a small startup",
+    date: "3/2024"
+  },
+  {
     id: "bithoop",
     title: "Bithoop",
     description: "Full-stack software engineering for a small startup",

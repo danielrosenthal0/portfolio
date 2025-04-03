@@ -13,8 +13,8 @@ const BottomNav = () => {
                 Home
                 </Link>
                 <Link 
-                to="/about" 
-                className={location.pathname === '/about' ? `${styles.link} ${styles.active}` : styles.link}>
+                to="/contact" 
+                className={location.pathname === '/contact' ? `${styles.link} ${styles.active}` : styles.link}>
                 Contact
                 </Link>
                 </div>

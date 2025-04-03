@@ -18,15 +18,15 @@ const About = () => {
         <div className={styles.about}>
           <FadeInOnScroll>
             <p className={styles.intro}>
-              My name is Daniel Rosenthal and I live in NYC. I am 22 years
-              old and I just recently graduated Wake Forest University in
-              Winston-Salem, North Carolina. I am originally from just outside Philadelphia.
+              My name is Daniel Rosenthal and I live in NYC. I am 23 years
+              old and I went to Wake Forest University in
+              Winston-Salem, North Carolina. I am originally from just outside Philadelphia. I enjoy programming, basketball, film photography, running, golf, snowboarding, etc.!
             </p>
           </FadeInOnScroll>
           <FadeInOnScroll>
             <p className={styles.intro2}>
               I majored in engineering with a concentration in computer and
-              electrical engineering. I also minored in computer science and
+              electrical engineering. I minored in computer science and
               mathematics. I have wide array of interests and I am always
               looking for a new project. 
               I am a fast-learner, creative problem solver, and I am
