@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react"
 import NavBar from "./Components/NavBar";
 import BottomNav from "./Components/BottomNav";
 import Home from "./Components/Home";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
         </Routes>
         <BottomNav/>
+        <Analytics />
     </div>
       
     </Router>
