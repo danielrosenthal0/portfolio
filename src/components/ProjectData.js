@@ -102,6 +102,24 @@ const ProjectData = [
       "Developed a React Native mobile application utilizing the Premier League Fantasy API.",
     "Enhanced the user experience by offering a streamlined and visually appealing way for users to monitor their Fantasy Premier League teams, matchups, and live scores."
     ]
+  },
+  {
+    id: "threshold",
+    title: "Threshold.world",
+    description: [
+      "I develop and maintain a full‐stack application using .NET, Vue.js, SQL, and Azure OpenAI to empower 10+ nonprofit organizations to effectively track, report, and showcase their social impact data.",
+      "Architected and implemented cross‐platform library standards integration that aligned projects with UN Sustainable Development Goals and IRIS+ metrics, resulting in more comprehensive impact reporting and enabling AI‐powered storytelling features that increased stakeholder engagement.",
+      "Redesigned user registration flow and implemented multi‐factor authentication, reducing abandonment rate and increasing new user retention.",
+      "Created new qualitative indicator and result data types that expanded impact measurement capabilities, allowing organizations to capture and analyze narrative‐based outcomes alongside quantitative metrics for more holistic reporting.",
+      "Developed an interactive organization dashboard that visualizes cross‐project metrics and stories, enabling real‐time data analysis for decision‐making."
+    ]
+  },
+  {
+    id: "face-api",
+    title: "In-Browser Facial Recognition",
+    description: [
+      "Developed a web application using face-api.js for real-time facial recognition.",
+    ]
   }
 ]
 
