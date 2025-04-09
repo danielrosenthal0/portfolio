@@ -1,0 +1,9 @@
+.content {
+  background-color: black;
+  font-family: var(--body-font);
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white
+}

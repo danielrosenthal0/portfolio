@@ -29,6 +29,11 @@ const NavBar = (props) => {
                 className={location.pathname === '/projects' ? `${styles.link} ${styles.active}` : styles.link}>
                 Projects
                 </Link>
+                <Link 
+                to="/blog" 
+                className={location.pathname === '/blog' ? `${styles.link} ${styles.active}` : styles.link}>
+                Blog
+                </Link>
                 </div>
             </div>
         </Fragment>
