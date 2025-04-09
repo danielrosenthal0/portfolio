@@ -102,6 +102,13 @@ const ProjectData = [
       "Developed a React Native mobile application utilizing the Premier League Fantasy API.",
     "Enhanced the user experience by offering a streamlined and visually appealing way for users to monitor their Fantasy Premier League teams, matchups, and live scores."
     ]
+  },
+  {
+    id: "face-api",
+    title: "In-Browser Face Recognition",
+    description: [
+      "<a href='https://face-rec-demo.vercel.app/' class='active' target='_blank' rel='noopener noreferrer'>This</a> is a face recognition app I built using the Face API",
+    ]
   }
 ]
 

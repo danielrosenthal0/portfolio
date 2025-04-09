@@ -7,3 +7,9 @@
   flex-direction: column;
   color: white
 }
+
+.post {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 50rem;
+}
