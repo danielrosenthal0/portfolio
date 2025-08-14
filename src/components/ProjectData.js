@@ -9,7 +9,7 @@ const ProjectData = [
     id: "hyzerberg-technologies",
     title: "Engineering Capstone Project",
     description: [
-      '<a class="active" href="http://hyzerbergtechnologies.com" target="_blank" rel="noopener noreferrer">Here</a> is our super-duper cool website I built for my team - it goes into a bit more detail than I do here',
+      '<a class="active" href="https://frolf-website.vercel.app/" target="_blank" rel="noopener noreferrer">Here</a> is our super-duper cool website I built for my team - it goes into a bit more detail than I do here',
       "My senior Engineering Capstone Project was focused on building a disc golf simulator, similar to a traditional golf simulator you may see in a barcade or local golf store",
       "I worked with three other students to eventually create a working prototype over the course of our school year",
       "The prototype consisted of a reComputer J1020 NVIDIA Jetson Nano module computer, two CSI cameras interfacing with the J1020, and a customized rig and netting to house the simulator",
