@@ -148,7 +148,9 @@ const ProjectData = [
       "Implemented secure Spotify Web API integration with proper token management, refresh token handling, and comprehensive error handling for reliable music data retrieval.",
       "Created a modern React/Next.js frontend with TypeScript, featuring real-time song analysis, visual playlist recommendations, and seamless playlist modification capabilities.",
       "Designed an intelligent scoring system that combines multiple factors: +2 points for artist matches, +2 points for genre alignment, and weighted popularity scoring to account for Spotify's deprecated audio analysis APIs.",
-      "Built responsive UI components with loading states, success feedback, and intuitive song URL parsing to provide a smooth user experience for playlist management and music discovery."
+      "Built responsive UI components with loading states, success feedback, and intuitive song URL parsing to provide a smooth user experience for playlist management and music discovery.",
+      "<a href='https://github.com/danielrosenthal0/playlist' class='active' target='_blank' rel='noopener noreferrer'>GitHub Repository</a>"
+
     ]
   }, 
 ]
