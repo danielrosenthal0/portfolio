@@ -3,7 +3,7 @@ import output from "./Assets/output_gif.gif"
 import demo from "./Assets/demo_trim.mp4";
 import ultra from "./Assets/ultrasoniceyes.png";
 import ultragif from "./Assets/ultrasoniceyes.gif";
-import plauly from "./Assets/plauly.mov"
+import plauly from "./Assets/plauly.mp4"
 const ProjectData = [
   {
     id: "hyzerberg-technologies",
