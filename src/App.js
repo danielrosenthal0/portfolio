@@ -2,13 +2,13 @@ import React from "react";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react"
 import NavBar from "./Components/NavBar";
-import BottomNav from "./Components/BottomNav";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Projects from "./Components/Projects";
-import ProjectDetail from "./Components/ProjectDetail"
-import Contact from "./Components/Contact";
-import Blog from "./Components/Blog";
+import BottomNav from "./components/BottomNav";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import ProjectDetail from "./components/ProjectDetail"
+import Contact from "./components/Contact";
+import Blog from "./components/Blog";
 
 function App() {
   return (
