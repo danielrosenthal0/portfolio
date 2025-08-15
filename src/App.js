@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react"
-import NavBar from "./Components/NavBar";
+import NavBar from "./components/NavBar";
 import BottomNav from "./components/BottomNav";
 import Home from "./components/Home";
 import About from "./components/About";
