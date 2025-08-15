@@ -3,13 +3,13 @@ import output from "./Assets/output_gif.gif"
 import demo from "./Assets/demo_trim.mp4";
 import ultra from "./Assets/ultrasoniceyes.png";
 import ultragif from "./Assets/ultrasoniceyes.gif";
-
+import plauly from "./Assets/plauly.mov"
 const ProjectData = [
   {
     id: "hyzerberg-technologies",
     title: "Engineering Capstone Project",
     description: [
-      '<a class="active" href="https://frolf-website.vercel.app/" target="_blank" rel="noopener noreferrer">Here</a> is our super-duper cool website I built for my team - it goes into a bit more detail than I do here',
+      '<a class="active" href="https://frolf-website.vercel.app/" target="_blank" rel="noopener noreferrer">Here</a> is our website I built for my team - it goes into a bit more detail than I do here',
       "My senior Engineering Capstone Project was focused on building a disc golf simulator, similar to a traditional golf simulator you may see in a barcade or local golf store",
       "I worked with three other students to eventually create a working prototype over the course of our school year",
       "The prototype consisted of a reComputer J1020 NVIDIA Jetson Nano module computer, two CSI cameras interfacing with the J1020, and a customized rig and netting to house the simulator",
@@ -19,14 +19,19 @@ const ProjectData = [
     images: [topshot, output],
     video: demo,
   },
-  {
+{
     id: "smart-robot",
-    title: "Pololu Romi Robot",
+    title: "Autonomous Navigation Robot (Pololu Romi)",
     description: [
-      "Developed software functionalities for a Pololu Romi robot during my senior year robotics class.",
-      "Implemented algorithms and control systems to enhance the robot's performance and capabilities."
+      "Developed a comprehensive autonomous navigation system for a Pololu Romi robot using Arduino C++ and subsumption architecture with multiple behavioral states.",
+      "Implemented real-time obstacle detection and avoidance using ultrasonic rangefinder sensors with configurable warning and danger distance thresholds for safe navigation.",
+      "Built a sophisticated state machine with three primary behaviors: random wandering for exploration, collision avoidance for obstacle detection, and proportional control for smooth obstacle navigation.",
+      "Created intelligent random movement algorithms using seeded random number generation for unpredictable exploration patterns with dynamic distance and turning angle calculations.",
+      "Integrated multi-color LED feedback system (RGB) to provide visual status indicators for different operational states and behaviors during autonomous operation.",
+      "Developed advanced line-following capabilities with PID control systems, IR remote control integration, and autonomous delivery navigation using intersection detection and dead reckoning.",
+      "Implemented complex navigation behaviors including pickup and delivery sequences, free-range searching algorithms, and mapping-based path planning for structured environments."
     ]
-  },
+},
   {
     id: "lionize",
     title: "Lionize.ai Internship",
@@ -103,13 +108,49 @@ const ProjectData = [
     "Enhanced the user experience by offering a streamlined and visually appealing way for users to monitor their Fantasy Premier League teams, matchups, and live scores."
     ]
   },
-  {
+{
     id: "face-api",
     title: "In-Browser Face Recognition",
     description: [
-      "<a href='https://face-rec-demo.vercel.app/' class='active' target='_blank' rel='noopener noreferrer'>This</a> is a face recognition app I built using the Face API",
+      "<a href='https://face-rec-demo.vercel.app/' class='active' target='_blank' rel='noopener noreferrer'>This</a> is a real-time face recognition web application built with React and the Face-API.js library for client-side facial analysis.",
+      "Implemented live webcam integration using the Web Media API to capture video streams and process them for face detection without server dependencies.",
+      "Integrated multiple pre-trained neural network models including TinyFaceDetector, face landmark detection, face recognition, and facial expression analysis for comprehensive face analysis.",
+      "Built a responsive canvas overlay system that renders real-time face detection boxes, 68-point facial landmarks, and emotion recognition directly on the video feed.",
+      "Developed asynchronous model loading with proper state management using React hooks to ensure all AI models are initialized before starting face detection.",
+      "Deployed as a lightweight, privacy-focused application on Vercel where all face processing occurs locally in the browser without sending data to external servers."
     ]
-  }
+},
+{
+    id: "turnstile",
+    title: "Turnstile",
+    description: [
+      "A full-stack web application attempting to connect emerging musicians with established artists in the music industry, built with React frontend and serverless AWS backend architecture.",
+      "Implemented comprehensive user authentication using AWS Cognito with complete sign-up, login, and password reset functionality for secure user management.",
+      "Developed audio visualization features using WaveSurfer.js library, enabling users to upload and visualize their music tracks with professional waveform displays.",
+      "Built a robust serverless backend using AWS Lambda functions with Node.js 20.x runtime, including dedicated file service for music upload and retrieval operations.",
+      "Integrated AWS S3 for scalable music file storage with presigned URL generation for secure file access and efficient content delivery.",
+      "Deployed frontend on Vercel with proper CORS configuration and implemented search functionality to help users discover songs and connect with other artists.",
+      "Utilized Serverless Framework for infrastructure as code, ensuring scalable and cost-effective deployment with separate development and production environments.",
+      "Unfortunately, I let the AWS free tier expire, so the app is no longer live, but you can still view the code on GitHub.",
+      "<a href='https://github.com/danielrosenthal0/turnstile' class='active' target='_blank' rel='noopener noreferrer'>GitHub Repository</a>"
+
+
+    ]
+  },  
+  {
+    id: "plauly",
+    title: "Plauly",
+    video: plauly,
+    description: [
+      "A full-stack web application that intelligently suggests which Spotify playlist a new song belongs to using a custom scoring algorithm and machine learning-inspired classification system.",
+      "Built with Node.js Express backend featuring Spotify OAuth 2.0 integration, session management, and comprehensive API endpoints for user authentication and playlist analysis.",
+      "Developed a playlist classification engine that analyzes artist matches, genre compatibility, and popularity scores to recommend the most suitable playlist for any given track.",
+      "Implemented secure Spotify Web API integration with proper token management, refresh token handling, and comprehensive error handling for reliable music data retrieval.",
+      "Created a modern React/Next.js frontend with TypeScript, featuring real-time song analysis, visual playlist recommendations, and seamless playlist modification capabilities.",
+      "Designed an intelligent scoring system that combines multiple factors: +2 points for artist matches, +2 points for genre alignment, and weighted popularity scoring to account for Spotify's deprecated audio analysis APIs.",
+      "Built responsive UI components with loading states, success feedback, and intuitive song URL parsing to provide a smooth user experience for playlist management and music discovery."
+    ]
+  }, 
 ]
 
 export default ProjectData;

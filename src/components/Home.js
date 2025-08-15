@@ -18,7 +18,7 @@ const Home = () => {
             </p>
           </FadeInOnScroll>
           <FadeInOnScroll>
-            <p className={styles.intro2}>This website is meant to showcase some of my side projects I've worked on recently as well as any cool stuff I'm doing at work!</p>
+            <p className={styles.intro2}>This website is meant to showcase some of my side projects I'm able to work on in my spare time.</p>
           </FadeInOnScroll>
         </div>
 

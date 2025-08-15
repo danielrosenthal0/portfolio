@@ -13,7 +13,7 @@ const ProjectDetail = () => {
     return <div className={styles.content}>Project not found</div>;
   }
 
-  const { title, description, images } = project;
+  const { title, description, images, video } = project;
 
   return (
     <div className={styles.content}>
@@ -39,6 +39,11 @@ const ProjectDetail = () => {
           })}
         </div>
       ) : null}
+          {video && (
+        <div className={styles.videoContainer}>
+          <video src={video} width="50%" controls autoPlay loop muted />
+        </div>
+      )}
     </div>
   );
 };

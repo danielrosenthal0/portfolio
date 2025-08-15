@@ -32,6 +32,17 @@ img {
   padding: 24px;
   max-width: 500px;
 }
+.description a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
 
-.descriptionItem {
+.description a:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem; /* Optional: adds some space below the video */
 }

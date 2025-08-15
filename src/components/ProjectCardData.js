@@ -1,16 +1,16 @@
 const ProjectCardData = [
-  {
-    id: "threshold",
-    title: "threshold.world",
-    description: "Full-stack software engineering for a small startup",
-    date: "3/2024"
-  },
-  {
-    id: "bithoop",
-    title: "Bithoop",
-    description: "Full-stack software engineering for a small startup",
-    date: "1/2024"
-  },
+  // {
+  //   id: "threshold",
+  //   title: "threshold.world",
+  //   description: "Full-stack software engineering for a small startup",
+  //   date: "3/2024"
+  // },
+  // {
+  //   id: "bithoop",
+  //   title: "Bithoop",
+  //   description: "Full-stack software engineering for a small startup",
+  //   date: "1/2024"
+  // },
   {
     id: "hyzerberg-technologies",
     title: "Hyzerberg Technologies",
@@ -35,12 +35,12 @@ const ProjectCardData = [
     description: "Custom toy that follows a user across the room with LED eyes",
     date: "3/2021"
   },
-  {
-    id: "fantasy",
-    title: "Fantasy Premier League Mobile App",
-    description: "Redesigning the FPL mobile app experience",
-    date: "8/2023"
-  },
+  // {
+  //   id: "fantasy",
+  //   title: "Fantasy Premier League Mobile App",
+  //   description: "Redesigning the FPL mobile app experience",
+  //   date: "8/2023"
+  // },
   {
     id: "research",
     title: "Stereo Vision Wildfire Drone Research",
@@ -53,11 +53,23 @@ const ProjectCardData = [
     description: "Using face-api to run real-time facial recognition in the browser",
     date: "8/2023"
   },
-  {
-    id: "nba-free-agency",
-    title: "NBA Free Agency Website",
-    description: "Website that tracks NBA free agency as it occurs, drawing a map as players move around the league",
-    date: "8/2023"
+  // {
+  //   id: "nba-free-agency",
+  //   title: "NBA Free Agency Website",
+  //   description: "Website that tracks NBA free agency as it occurs, drawing a map as players move around the league",
+  //   date: "8/2023"
+  // },
+    {
+    id: "turnstile",
+    title: "Turnstile",
+    description: "A web app to connect up-and-coming artists with artists already solidified in the industry",
+    date: "1/2024"
+  },
+      {
+    id: "plauly",
+    title: "Plauly",
+    description: "A web app to analyze a song and related playlists to find the best playlist for your music",
+    date: "8/2025"
   },
 ];
 
