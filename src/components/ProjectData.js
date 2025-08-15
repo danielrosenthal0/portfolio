@@ -1,9 +1,9 @@
 import topshot from "./Assets/topshot.gif";
 import output from "./Assets/output_gif.gif"
-import demo from "./Assets/demo_trim.mp4";
+// import demo from "./Assets/demo_trim.mp4";
 import ultra from "./Assets/ultrasoniceyes.png";
 import ultragif from "./Assets/ultrasoniceyes.gif";
-import plauly from "./Assets/plauly.mp4"
+// import plauly from "./Assets/plauly.mp4"
 const ProjectData = [
   {
     id: "hyzerberg-technologies",
@@ -17,7 +17,7 @@ const ProjectData = [
       "We were successfully able to calculate velocity and nose angle instantaneously and return these values immediately to the user, which was quite the accomplishment given our budget and hardware limitations",
     ],
     images: [topshot, output],
-    video: demo,
+    video: "https://res.cloudinary.com/dnnvr9pg3/video/upload/v1755228005/demo_trim_n44b1h.mp4",
   },
 {
     id: "smart-robot",
@@ -140,7 +140,7 @@ const ProjectData = [
   {
     id: "plauly",
     title: "Plauly",
-    video: plauly,
+    video: "https://res.cloudinary.com/dnnvr9pg3/video/upload/v1755227857/Screen_Recording_2025-08-14_at_10.44.18_PM_m1gxjb.mov",
     description: [
       "A full-stack web application that intelligently suggests which Spotify playlist a new song belongs to using a custom scoring algorithm and machine learning-inspired classification system.",
       "Built with Node.js Express backend featuring Spotify OAuth 2.0 integration, session management, and comprehensive API endpoints for user authentication and playlist analysis.",
