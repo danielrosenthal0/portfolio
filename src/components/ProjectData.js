@@ -48,18 +48,7 @@ const ProjectData = [
     images: [],
     video: "",
   },
-  {
-    id: "alquimia-analytica",
-    title: "Alquimia Analytica Internship",
-    description: [
-      '<a href=”https://www.alquimiaanalytica.com/en/” class=”active” target="_blank" rel="noopener noreferrer">Alquimia Analytica</a> is a data analytics firm based in San Jose, Costa Rica',
-      "I was able to work remotely and learned how to work with Power BI dashboards over the course of this internship",
-      "I was able to fully recreate a dashboard for a Costa Rican travel agency that had multiple faulty connections between databases",
-      "This was a great opportunity for me to begin learning about relational databases, Power BI, and the visual capabilities of these dashboards and the insights they can provide",
-    ],
-    images: [],
-    video: "",
-  },
+
   {
     id: "ultrasonic",
     title: "Ultrasonic Eyes",
@@ -91,23 +80,7 @@ const ProjectData = [
     images: [],
     video: "",
   },
-  {
-    id: "bithoop",
-    title: "Bithoop",
-    description: [
-      "Served as a Junior Software Engineer at Bithoop, a startup revolutionizing information management.",
-      "Developed and maintained a React.js web application with Node.js, AWS Lambda, DynamoDB, Stripe CLI, and the Serverless framework.",
-      "Architected a full-stack Box API connection and implemented dynamic link-tracking features, resulting in increased user engagement."
-    ]
-  },
-  {
-    id: "fantasy",
-    title: "Fantasy Premier League Mobile App",
-    description: [
-      "Developed a React Native mobile application utilizing the Premier League Fantasy API.",
-    "Enhanced the user experience by offering a streamlined and visually appealing way for users to monitor their Fantasy Premier League teams, matchups, and live scores."
-    ]
-  },
+
 {
     id: "face-api",
     title: "In-Browser Face Recognition",
@@ -142,13 +115,14 @@ const ProjectData = [
     title: "Plauly",
     video: "https://res.cloudinary.com/dnnvr9pg3/video/upload/v1755227857/Screen_Recording_2025-08-14_at_10.44.18_PM_m1gxjb.mov",
     description: [
-      "A full-stack web application that intelligently suggests which Spotify playlist a new song belongs to using a custom scoring algorithm and machine learning-inspired classification system.",
+      "A full-stack web application that intelligently suggests which Spotify playlist a new song belongs to using a custom scoring algorithm.",
       "Built with Node.js Express backend featuring Spotify OAuth 2.0 integration, session management, and comprehensive API endpoints for user authentication and playlist analysis.",
       "Developed a playlist classification engine that analyzes artist matches, genre compatibility, and popularity scores to recommend the most suitable playlist for any given track.",
       "Implemented secure Spotify Web API integration with proper token management, refresh token handling, and comprehensive error handling for reliable music data retrieval.",
       "Created a modern React/Next.js frontend with TypeScript, featuring real-time song analysis, visual playlist recommendations, and seamless playlist modification capabilities.",
       "Designed an intelligent scoring system that combines multiple factors: +2 points for artist matches, +2 points for genre alignment, and weighted popularity scoring to account for Spotify's deprecated audio analysis APIs.",
       "Built responsive UI components with loading states, success feedback, and intuitive song URL parsing to provide a smooth user experience for playlist management and music discovery.",
+      "Unfortunately, Spotify only allows approved organizations to make applications public. Therefore, this app will have to remain as a local build for the time being. The video below is only searching my 5 most recent playlists for speed purposes. Spotify has deprecated song analysis APIs, so I want to work on using custom audio features to accurately describe a playlist.",
       "<a href='https://github.com/danielrosenthal0/playlist' class='active' target='_blank' rel='noopener noreferrer'>GitHub Repository</a>"
 
     ]
