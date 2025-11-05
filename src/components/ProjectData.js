@@ -131,8 +131,9 @@ const ProjectData = [
     id: "metrohedron",
     title: "Metrohedron",
     description: [
+      "<a href='https://metrohedron.vercel.app' class='active' target='_blank'rel='noopener noreferrer'>Metrohedron</a>",
       "An in-progress web (and potentially mobile) application designed to track and analyze individual travel patterns on the NYC subway system, providing users with quick statistics and insights about their commutes.",
-      "Built with a React frontend, a Node.js Express backend, and a Postgres database managed with Prisma Client featuring user authentication and trip logging.",
+      "Built with Next.js and a Postgres database managed with Prisma Client featuring Auth0 user authentication and trip logging.",
       "Integrates with the MTA API to fetch and seed subway station and line data.",
     ]
   }, 
