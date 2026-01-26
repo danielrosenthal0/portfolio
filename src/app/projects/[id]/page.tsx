@@ -1,22 +1,25 @@
-import topshot from "./Assets/topshot.gif";
-import output from "./Assets/output_gif.gif"
-// import demo from "./Assets/demo_trim.mp4";
-import ultra from "./Assets/ultrasoniceyes.png";
-import ultragif from "./Assets/ultrasoniceyes.gif";
-// import plauly from "./Assets/plauly.mp4"
-const ProjectData = [
+// import topshot from "src/app/assets/topshot.gif";
+// import output from "src/app/assets/output_gif.gif"
+// // import demo from "./Assets/demo_trim.mp4";
+// import ultra from "src/app/assets/ultrasoniceyes.png";
+
+import Link from "next/link";
+
+// import ultragif from "src/app/assets/ultrasoniceyes.gif";
+export default async function Page({ params }: { params: { id: string } }) {
+  const ProjectData = [
   {
     id: "hyzerberg-technologies",
     title: "Engineering Capstone Project",
     description: [
-      '<a class="active" href="https://frolf-website.vercel.app/" target="_blank" rel="noopener noreferrer">Here</a> is our website I built for my team - it goes into a bit more detail than I do here',
+      '<a class="active" href="https://frolf-website.vercel.app/"  target="_blank" rel="noopener noreferrer">Here</a> is our website I built for my team - it goes into a bit more detail than I do here',
       "My senior Engineering Capstone Project was focused on building a disc golf simulator, similar to a traditional golf simulator you may see in a barcade or local golf store",
       "I worked with three other students to eventually create a working prototype over the course of our school year",
       "The prototype consisted of a reComputer J1020 NVIDIA Jetson Nano module computer, two CSI cameras interfacing with the J1020, and a customized rig and netting to house the simulator",
       "We were able to manually calculate the six flight parameters needed to simulate disc flight - velocity, spin rate, nose angle, vertical launch angle, horizontal launch angle, and bank - but this was a slow process and did not provide meaningful feedback to users",
       "We were successfully able to calculate velocity and nose angle instantaneously and return these values immediately to the user, which was quite the accomplishment given our budget and hardware limitations",
     ],
-    images: [topshot, output],
+    // images: [topshot, output],
     video: "https://res.cloudinary.com/dnnvr9pg3/video/upload/v1755228005/demo_trim_n44b1h.mp4",
   },
 {
@@ -60,7 +63,7 @@ const ProjectData = [
       "The image shows the more realistic final design of the eyes, but I unfortunately did not take a video with the new eyes before the project was submitted",
       'The full instructions for the project labture can be found <a class = "active" href="./Assets/311 Final Project Labture final .pdf" target="_blank" download>here</a>',
     ],
-    images: [ultra, ultragif],
+    // images: [ultra, ultragif],
     video: "",
   },
   {
@@ -138,5 +141,50 @@ const ProjectData = [
     ]
   }, 
 ]
+  const { id } = await params;
+  const currData = ProjectData.find((project) => project.id === id);
 
-export default ProjectData;
+  if (!currData) {
+    return (
+      <div className="bg-black min-h-screen text-white flex items-center justify-center">
+        <div className="text-2xl">Project not found.</div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="bg-black min-h-screen text-white">
+      <style>{`
+        .active {
+          color: var(--tertiary-color); 
+          
+          font-weight: 600;
+          transition: color 0.2s;
+        }
+        .active:hover {
+          color: var(--primary-color); 
+          text-decoration: underline;
+        }
+      `}</style>
+      <main className="max-w-3xl mx-auto py-32">
+        <Link href={'/projects'} className="bg-white/5 border border-white/10 rounded-sm p-2 shadow-md hover:bg-[var(--tertiary-color)]/10 transition ">back</Link>
+
+        <div className="mb-8 mt-8">
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-[var(--tertiary-color)] mb-2">{currData.title}</h1>
+          {currData.video && (
+            <div className="my-6">
+              <video className="rounded-lg w-full max-h-96 mx-auto" src={currData.video} controls autoPlay loop muted />
+            </div>
+          )}
+        </div>
+        <div className="bg-white/5 border border-white/10 rounded-xl p-8 shadow-lg space-y-5 text-lg leading-relaxed text-white/90">
+          {currData.description.map((desc, idx) =>
+            desc.includes('<a') || desc.includes('<br')
+              ? <div key={idx} dangerouslySetInnerHTML={{ __html: desc }} />
+              : <div key={idx}>{desc}</div>
+          )}
+        </div>
+      </main>
+    </div>
+  );
+}
