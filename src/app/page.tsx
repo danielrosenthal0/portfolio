@@ -46,7 +46,7 @@ export default function Page() {
                 github
               </Link>
 
-              <Link href="https://linkedin.com/in/danielrosenthal0" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-[var(--tertiary-color)] transition">
+              <Link href="https://linkedin.com/in/daniel-b-rosenthal" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-[var(--tertiary-color)] transition">
                 linkedin
               </Link>
             </div>
