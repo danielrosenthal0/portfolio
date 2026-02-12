@@ -134,10 +134,11 @@ export default async function Page({ params }: { params: { id: string } }) {
     id: "metrohedron",
     title: "Metrohedron",
     description: [
-      "<a href='https://metrohedron.vercel.app' class='active' target='_blank'rel='noopener noreferrer'>Metrohedron</a>",
-      "An in-progress web (and potentially mobile) application designed to track and analyze individual travel patterns on the NYC subway system, providing users with quick statistics and insights about their commutes.",
-      "Built with Next.js and a Postgres database managed with Prisma Client featuring Auth0 user authentication and trip logging.",
-      "Integrates with the MTA API to fetch and seed subway station and line data.",
+      "Try it here: <a href='https://metrohedron.vercel.app' class='active' target='_blank'rel='noopener noreferrer'>Metrohedron</a>",
+      "A web application designed to track and analyze individual travel patterns on the NYC subway system, providing users with quick statistics and visualizations of travels.",
+      "Built with Next.js and a Postgres database managed with Prisma ORM featuring Auth0 user authentication and trip logging. Production and test instances hosted on Vercel.",
+      "Integrates with the MTA API to fetch and seed subway station and line data, with ability to refresh database whenever changes occur (not likely soon, given the state of the MTA and their development plans).",
+      "Builds map of MTA system with GTFS data and shape file of system, built on Leaflet's React library. Each trip is mapped across the individual line(s) taken on the trip, with accurate line colors and line geometry."
     ]
   }, 
 ]
