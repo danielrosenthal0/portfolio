@@ -116,17 +116,14 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
   {
     id: "plauly",
     title: "Plauly",
-    video: "https://res.cloudinary.com/dnnvr9pg3/video/upload/v1755227857/Screen_Recording_2025-08-14_at_10.44.18_PM_m1gxjb.mov",
+    // video: "https://res.cloudinary.com/dnnvr9pg3/video/upload/v1755227857/Screen_Recording_2025-08-14_at_10.44.18_PM_m1gxjb.mov",
     description: [
-      "A full-stack web application that intelligently suggests which Spotify playlist a new song belongs to using a custom scoring algorithm.",
-      "Built with Node.js Express backend featuring Spotify OAuth 2.0 integration, session management, and comprehensive API endpoints for user authentication and playlist analysis.",
-      "Developed a playlist classification engine that analyzes artist matches, genre compatibility, and popularity scores to recommend the most suitable playlist for any given track.",
-      "Implemented secure Spotify Web API integration with proper token management, refresh token handling, and comprehensive error handling for reliable music data retrieval.",
-      "Created a modern React/Next.js frontend with TypeScript, featuring real-time song analysis, visual playlist recommendations, and seamless playlist modification capabilities.",
-      "Designed an intelligent scoring system that combines multiple factors: +2 points for artist matches, +2 points for genre alignment, and weighted popularity scoring to account for Spotify's deprecated audio analysis APIs.",
-      "Built responsive UI components with loading states, success feedback, and intuitive song URL parsing to provide a smooth user experience for playlist management and music discovery.",
-      "Unfortunately, Spotify only allows approved organizations to make applications public. Therefore, this app will have to remain as a local build for the time being. The video below is only searching my 5 most recent playlists for speed purposes. Spotify has deprecated song analysis APIs, so I want to work on using custom audio features to accurately describe a playlist.",
-      "<a href='https://github.com/danielrosenthal0/playlist' class='active' target='_blank' rel='noopener noreferrer'>GitHub Repository</a>"
+      "Built a full-stack Spotify playlist intelligence app that recommends the best playlist for any new track using a custom classification algorithm. The platform combines a Node.js/Express backend (Spotify OAuth 2.0, session + token management, secure API integration) with a React/Next.js + TypeScript frontend for real-time track analysis and playlist updates.",
+
+      "The recommendation engine scores tracks using artist overlap, genre alignment, and popularity weighting to compensate for Spotify’s deprecated audio-analysis endpoints. I also implemented resilient error handling, loading/success UI states, and song URL parsing to create a smooth end-to-end experience for playlist curation and music discovery.",
+
+      "Tech: Node.js, Express, React, Next.js, TypeScript, Spotify Web API, OAuth 2.0",
+      "Links: <a href='https://plauly.vercel.app' class='active' target='_blank' rel='noopener noreferrer'>Live App</a>, <a href='https://github.com/danielrosenthal0/playlist' class='active' target='_blank' rel='noopener noreferrer'>GitHub Repository</a>"
 
     ]
   }, 
