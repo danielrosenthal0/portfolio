@@ -5,8 +5,129 @@
     --primary-color: #25adc5;
     --secondary-color: #acacac;
     --tertiary-color: #45bab5;
+    --glass-bg: rgba(255, 255, 255, 0.09);
+    --glass-bg-strong: rgba(255, 255, 255, 0.14);
+    --glass-border: rgba(255, 255, 255, 0.24);
+    --glass-shadow: 0 16px 34px rgba(0, 0, 0, 0.34);
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+body {
+    font-family: var(--font-primary), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #030304;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.page-bg {
+    background-color: #030304;
+    background-image:
+        radial-gradient(circle at 15% 12%, rgba(69, 186, 181, 0.14) 0%, rgba(69, 186, 181, 0) 44%),
+        radial-gradient(circle at 84% 0%, rgba(37, 173, 197, 0.11) 0%, rgba(37, 173, 197, 0) 40%);
+}
+
+.glass {
+    background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.03)),
+        var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: var(--glass-shadow);
+}
+
+.glass-strong {
+    background: var(--glass-bg-strong);
+}
+
+.glass-input {
+    background: rgba(0, 0, 0, 0.42);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+}
+
+.glass-button {
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    background: rgba(69, 186, 181, 0.16);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.glass-button:hover {
+    background: rgba(69, 186, 181, 0.24);
+    border-color: rgba(69, 186, 181, 0.5);
+    transform: translateY(-1px);
+}
+
+.nav-glass {
+    background: rgba(3, 3, 4, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+.glass-button,
+.hover-glass {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.glass-button::after,
+.hover-glass::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background: radial-gradient(
+        circle at var(--mx, 50%) var(--my, 50%),
+        rgba(255, 255, 255, 0.22) 0%,
+        rgba(255, 255, 255, 0.045) 28%,
+        rgba(255, 255, 255, 0) 62%
+    );
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.glass-button:hover::after,
+.hover-glass:hover::after {
+    opacity: 1;
+}
+
+.hover-glass::after {
+    background: radial-gradient(
+        circle at var(--mx, 50%) var(--my, 50%),
+        rgba(255, 255, 255, 0.16) 0%,
+        rgba(255, 255, 255, 0.03) 28%,
+        rgba(255, 255, 255, 0) 62%
+    );
+}
+
+.nav-link {
+    padding: 0.35rem 0.7rem;
+    border-radius: 9999px;
+    color: rgba(255, 255, 255, 0.86);
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.07);
+    border-color: rgba(255, 255, 255, 0.16);
+}
+
+.nav-link-active {
+    color: var(--tertiary-color);
+    background: rgba(69, 186, 181, 0.14);
+    border-color: rgba(69, 186, 181, 0.34);
 }

@@ -1,13 +1,25 @@
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
-import { Space_Mono } from 'next/font/google'
+import localFont from "next/font/local";
 import NavBar from "./components/NavBar";
-const spacemono = Space_Mono({subsets: ['latin'], weight: '400', display: "swap", })
+import CursorGlassEffect from "./components/CursorGlassEffect";
+
+const circularStd = localFont({
+  src: [
+    { path: "../../public/fonts/CircularStd-Book.ttf", weight: "400", style: "normal" },
+    { path: "../../public/fonts/CircularStd-Medium.ttf", weight: "500", style: "normal" },
+    { path: "../../public/fonts/CircularStd-Bold.ttf", weight: "700", style: "normal" },
+    { path: "../../public/fonts/CircularStd-Black.ttf", weight: "900", style: "normal" },
+  ],
+  variable: "--font-primary",
+  display: "swap",
+})
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={spacemono.className}>
+      <body className={circularStd.variable}>
+        <CursorGlassEffect />
         <NavBar/>
         {children}
         <Analytics />

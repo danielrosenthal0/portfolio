@@ -66,7 +66,7 @@ export default function Projects() {
   });
 
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="page-bg min-h-screen text-white">
       <main className="max-w-5xl mx-auto px-6 py-64">
         <section className="flex flex-col-reverse md:flex-row items-center gap-10">
           {/* Text */}
@@ -84,7 +84,7 @@ export default function Projects() {
                 <Link
                   href={`/projects/${project.id}`}
                   key={project.id}
-                  className="block bg-white/5 border border-white/10 rounded-lg p-6 shadow-md hover:bg-[var(--tertiary-color)]/10 transition group"
+                  className="block glass hover-glass rounded-lg p-6 hover:bg-[var(--tertiary-color)]/10 transition group"
                 >
                   <h2 className="text-2xl font-bold mb-2 group-hover:text-[var(--tertiary-color)] transition">{project.title}</h2>
                   <p className="mb-2 text-white/80">{project.description}</p>

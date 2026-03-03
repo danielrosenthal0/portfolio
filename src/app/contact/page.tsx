@@ -38,9 +38,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="page-bg min-h-screen text-white">
       <main className="max-w-5xl mx-auto px-6 py-64">
-        <div className="max-w-lg mx-auto bg-white/5 border border-white/10 rounded-xl p-8 shadow-lg">
+        <div className="max-w-lg mx-auto glass hover-glass rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-6 text-[var(--tertiary-color)] text-center">Contact Me</h2>
           {sent && (
             <div className="mb-4 text-green-400 text-center font-semibold">Message sent! I'll get back to you soon.</div>
@@ -55,7 +55,7 @@ export default function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 rounded-md bg-black/60 border border-white/20 text-white focus:outline-none focus:border-[var(--tertiary-color)] transition"
+                className="w-full px-4 py-2 rounded-md glass-input text-white focus:outline-none focus:border-[var(--tertiary-color)] transition"
                 placeholder="your@email.com"
               />
             </div>
@@ -68,7 +68,7 @@ export default function Contact() {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 rounded-md bg-black/60 border border-white/20 text-white focus:outline-none focus:border-[var(--tertiary-color)] transition"
+                className="w-full px-4 py-2 rounded-md glass-input text-white focus:outline-none focus:border-[var(--tertiary-color)] transition"
                 placeholder="Subject"
               />
             </div>
@@ -81,14 +81,14 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 rounded-md bg-black/60 border border-white/20 text-white focus:outline-none focus:border-[var(--tertiary-color)] transition"
+                className="w-full px-4 py-2 rounded-md glass-input text-white focus:outline-none focus:border-[var(--tertiary-color)] transition"
                 placeholder="Type your message here..."
               ></textarea>
             </div>
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 rounded-md bg-[var(--tertiary-color)] text-black font-semibold shadow-md hover:brightness-95 transition disabled:opacity-60 disabled:cursor-not-allowed"
+              className="w-full py-3 rounded-md glass-button text-white font-semibold shadow-md disabled:opacity-60 disabled:cursor-not-allowed"
             >
               {loading ? "Sending..." : "Send Message"}
             </button>
