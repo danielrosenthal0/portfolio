@@ -50,13 +50,13 @@ export default function Projects() {
     id: "plauly",
     title: "Plauly",
     description: "A web app to analyze a song and related playlists to find the best playlist for your music",
-    date: "8/2025"
+    date: "2/2026"
   },
   {
     id: "metrohedron",
     title: "Metrohedron",
     description: "A web app to track people's travels on the NYC subway system and provide quick stats, heatmaps of frequented stations, and visual representations of travels on a map of the subway",
-    date: "9/2025"
+    date: "3/2026"
   },
 ];
   const sortedProjects = [...ProjectCardData].sort((a, b) => {
