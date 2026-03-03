@@ -3,7 +3,7 @@ import cannon from "../assets/cannon.jpg";
 
 export default function About() {
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="page-bg min-h-screen text-white">
       <main className="max-w-5xl mx-auto px-6 py-64">
         <section className="flex flex-col-reverse md:flex-row items-center gap-10">
           <div className="w-full md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left">
@@ -24,7 +24,7 @@ export default function About() {
             
           </div>
           <div className="w-full md:w-1/3 flex justify-center md:justify-end">
-            <div className="relative w-44 h-44 md:w-64 md:h-64 rounded-[150px] overflow-hidden ">
+            <div className="relative w-44 h-44 md:w-64 md:h-64 rounded-[150px] overflow-hidden glass glass-strong">
               <Image
                 src={cannon}
                 alt="Daniel on a cannon"

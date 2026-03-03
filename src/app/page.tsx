@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function Page() {
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="page-bg min-h-screen text-white">
       {/* <NavBar /> */}
 
       <main className="max-w-5xl mx-auto px-6 py-64">
@@ -28,14 +28,14 @@ export default function Page() {
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link
                 href="/projects"
-                className="inline-flex items-center justify-center px-5 py-3 rounded-md bg-[var(--tertiary-color)] text-black font-medium shadow-md hover:brightness-95 transition"
+                className="inline-flex items-center justify-center px-5 py-3 rounded-md glass-button text-white font-medium shadow-md"
               >
                 View Projects
               </Link>
 
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-5 py-3 rounded-md border border-white/10 text-white hover:bg-[var(--primary-color)]/30 transition"
+                className="inline-flex items-center justify-center px-5 py-3 rounded-md glass-button text-white"
               >
                 Contact
               </Link>
@@ -54,7 +54,7 @@ export default function Page() {
 
           {/* Image */}
           <div className="w-full md:w-1/3 flex justify-center md:justify-end">
-            <div className="relative w-44 h-44 md:w-64 md:h-64 rounded-[150px] overflow-hidden ">
+            <div className="relative w-44 h-44 md:w-64 md:h-64 rounded-[150px] overflow-hidden glass glass-strong">
               <Image
                 src={uzi}
                 alt="Daniel"

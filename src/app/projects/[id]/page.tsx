@@ -6,7 +6,7 @@
 import Link from "next/link";
 
 // import ultragif from "src/app/assets/ultrasoniceyes.gif";
-export default async function Page({ params }: { params: { id: string } }) {
+export default async function Page({ params }: { params: Promise<{ id: string }> }) {
   const ProjectData = [
   {
     id: "hyzerberg-technologies",
@@ -147,14 +147,14 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   if (!currData) {
     return (
-      <div className="bg-black min-h-screen text-white flex items-center justify-center">
+      <div className="page-bg min-h-screen text-white flex items-center justify-center">
         <div className="text-2xl">Project not found.</div>
       </div>
     );
   }
 
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="page-bg min-h-screen text-white">
       <style>{`
         .active {
           color: var(--tertiary-color); 
@@ -168,17 +168,17 @@ export default async function Page({ params }: { params: { id: string } }) {
         }
       `}</style>
       <main className="max-w-3xl mx-auto py-32">
-        <Link href={'/projects'} className="bg-white/5 border border-white/10 rounded-sm p-2 shadow-md hover:bg-[var(--tertiary-color)]/10 transition ">back</Link>
+        <Link href={'/projects'} className="glass-button rounded-sm p-2 shadow-md text-white">back</Link>
 
         <div className="mb-8 mt-8">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-[var(--tertiary-color)] mb-2">{currData.title}</h1>
           {currData.video && (
             <div className="my-6">
-              <video className="rounded-lg w-full max-h-96 mx-auto" src={currData.video} controls autoPlay loop muted />
+              <video className="rounded-lg w-full max-h-96 mx-auto glass hover-glass" src={currData.video} controls autoPlay loop muted />
             </div>
           )}
         </div>
-        <div className="bg-white/5 border border-white/10 rounded-xl p-8 shadow-lg space-y-5 text-lg leading-relaxed text-white/90">
+        <div className="glass hover-glass rounded-xl p-8 space-y-5 text-lg leading-relaxed text-white/90">
           {currData.description.map((desc, idx) =>
             desc.includes('<a') || desc.includes('<br')
               ? <div key={idx} dangerouslySetInnerHTML={{ __html: desc }} />
