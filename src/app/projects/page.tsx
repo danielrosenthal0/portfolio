@@ -1,6 +1,5 @@
 
 import Link from "next/link";
-// import plauly from "./Assets/plauly.mp4"
 
 export default function Projects() {
   const ProjectCardData = [

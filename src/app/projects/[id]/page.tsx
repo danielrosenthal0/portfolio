@@ -1,6 +1,5 @@
 // import topshot from "src/app/assets/topshot.gif";
 // import output from "src/app/assets/output_gif.gif"
-// // import demo from "./Assets/demo_trim.mp4";
 // import ultra from "src/app/assets/ultrasoniceyes.png";
 
 import Link from "next/link";
