@@ -138,6 +138,19 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
       "Builds map of MTA system with GTFS data and shape file of system, built on Leaflet's React library. Each trip is mapped across the individual line(s) taken on the trip, with accurate line colors and line geometry."
     ]
   }, 
+  {
+    id: "sixers",
+    title: "Real-Time Sports App",
+    description: [
+      "A React Native/Expo mobile app that tells Philadelphia 76ers fans whether a live game is worth watching, backed by a Supabase data pipeline that ingests live NBA schedule and scoring data from ESPN endpoints.",
+      "A schedule-sync Supabase Edge Function pulls the season's games (preseason, regular season, postseason, and summer league) and persists them to Postgres, so the app always knows the previous, current, and next game.",
+      "A second Edge Function runs every minute on a Postgres cron job, but only calls ESPN when a game is live or tips off within 15 minutes. It parses the live game summary into a typed game state, writes the score and status back to the database, and stops polling once the game goes final.",
+      "Watchability is decided by a set of small, pure notification rules evaluated against each snapshot: a pregame reminder, end-of-quarter and halftime scores, a close game in the final five minutes, a blowout, a player catching fire with 30+ points, and the final score.",
+      "Every notification is claimed with a unique event key before it is sent, so a rule that matches on many polls in a row still only buzzes your phone once, and each poll caps how many alerts go out.",
+      "Push notifications go out through Expo Notifications: the app registers each device's push token as a subscriber, sends are batched to Expo's push API, and tokens for uninstalled devices are deactivated automatically.",
+      "Tech: React Native, Expo, TypeScript, NativeWind, Supabase (Postgres, Edge Functions, pg_cron), ESPN APIs, Expo Notifications",
+    ]
+  },
 ]
   const { id } = await params;
   const currData = ProjectData.find((project) => project.id === id);

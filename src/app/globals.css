@@ -131,3 +131,34 @@ body {
     background: rgba(69, 186, 181, 0.14);
     border-color: rgba(69, 186, 181, 0.34);
 }
+
+/* Resume "save as pdf": print the resume as plain dark-on-white text */
+@media print {
+    body:has(.resume-page) nav,
+    .resume-page button {
+        display: none !important;
+    }
+
+    body:has(.resume-page),
+    .resume-page {
+        background: #fff !important;
+        color: #111 !important;
+    }
+
+    .resume-page * {
+        color: #111 !important;
+        background: none !important;
+        border-color: #ccc !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+    }
+
+    .resume-page main {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .resume-page .glass {
+        break-inside: avoid;
+    }
+}

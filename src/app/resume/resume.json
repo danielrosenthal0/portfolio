@@ -1,0 +1,128 @@
+{
+  "header": {
+    "name": "Daniel Rosenthal",
+    "address": "New York, NY",
+    "email": "daniel.b.rosenthal@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/daniel-b-rosenthal/",
+    "github": "https://github.com/danielrosenthal0",
+    "website": "http://danielrosenthal.io"
+  },
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "SQL",
+        "HTML & CSS"
+      ]
+    },
+    {
+      "group": "Applications and AI",
+      "items": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "React Native",
+        "Expo",
+        "Tailwind",
+        "Prisma",
+        "OpenAI"
+      ]
+    },
+    {
+      "group": "Cloud and Data",
+      "items": [
+        "AWS",
+        "AWS Lambda",
+        "Vercel",
+        "Supabase",
+        "PostgreSQL",
+        "DynamoDB",
+        "Stripe",
+        "Auth0",
+        "Docker",
+        "Serverless",
+        "Jira"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "threshold",
+      "org": "threshold.world",
+      "title": "Software Engineer",
+      "location": "Remote",
+      "dates": "Mar 2024 - Present",
+      "bullets": [
+        "Architected and built a multi-tenant SaaS platform with a React/TypeScript frontend, including hierarchical tenant isolation and a consistent business logic across application layers for metric calculations, dashboards, and reports",
+        "Built an OpenAI-powered agent with a React interface and vector search to provide researchers and conservationists with access to domain-specific knowledge; incorporated serverless malware scanning",
+        "Designing a GiveCampus-to-CRM connector in TypeScript/Node.js for a client processing $10,000+ in daily gifts, using polling, a message queue, backfills, and daily reconciliation for gift and subscription ingestion",
+        "Developed a Node.js/TypeScript service triggered by pull request webhooks to capture pull requests, generate AI-powered summaries via OpenAI models, and write formatted notes to a local Obsidian vault via a Cloudflare tunnel",
+        "Built a CI/CD deployment pipeline for containerized services, with infrastructure-as-code provisioning for SQL and storage, pre-deploy validation, and a commit-version check that fails mismatched deployments",
+        "Built a Node.js/Express API for a 65,000+ alumni network, implementing two-step criteria validation, field-level length enforcement, and partial update tracking with granular error responses",
+        "Developing and maintaining full-stack application using Next.js, React, TypeScript, and OpenAI models to empower 40+ nonprofit organizations to effectively track, report, and showcase their social impact data"
+      ]
+    },
+    {
+      "id": "bithoop",
+      "org": "Bithoop",
+      "title": "Junior Software Engineer",
+      "location": "Remote",
+      "dates": "Sep 2023 - Feb 2024",
+      "bullets": [
+        "Developed and maintained a file and email management web application using React.js, Node.js, AWS Lambda, DynamoDB, Stripe, and the Serverless framework for a small startup revolutionizing information management",
+        "Architected a full-stack Box API connection that connected to users' accounts with OAuth and processed their folders and files with AWS Lambda, a critical part of bringing a new enterprise customer to Bithoop",
+        "Built out a dynamic link-tracking feature, enabling users to associate and manage relevant links within a custom \"hoop\" for streamlined information access, resulting in a 20% increase in user engagement with external sources",
+        "Optimized user subscription experiences, resolving frontend, backend, and Stripe Dashboard issues related to free trial cancellations and resumptions, user redirection, and product offerings within the Stripe CLI environment"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "sports",
+      "org": "Real-Time Sports Application",
+      "title": "Mobile Developer",
+      "location": "Personal Project",
+      "dates": "Mar 2026 - Present",
+      "bullets": [
+        "Building a React Native/Expo mobile app backed by a Supabase Edge Function data pipeline that ingests live NBA schedule and scoring data via ESPN endpoints and cron functions, persists game records, and notifies users whether a live 76ers game meets custom watchability criteria",
+        "Implementing push notification workflows using Expo Notifications and Supabase Edge Functions to register subscribers, manage alert preferences, and trigger fan alerts around upcoming and live games"
+      ]
+    },
+    {
+      "id": "plauly",
+      "org": "Playlist Recommendation Application",
+      "title": "Full-Stack Developer",
+      "location": "Personal Project",
+      "dates": "Feb 2026 - Present",
+      "bullets": [
+        "Built a full-stack Spotify playlist intelligence app in Next.js, TypeScript, and Node.js/Express that recommends the best-fit playlist for any new track using a custom scoring algorithm",
+        "Engineered a recommendation engine that ranks playlists via artist overlap, genre alignment, and popularity weighting - a workaround for Spotify's deprecated audio-analysis endpoints"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Wake Forest University",
+      "dates": "2019 - 2023",
+      "lines": [
+        {
+          "text": "Bachelor of Science in Engineering, Computer/Electrical Concentration",
+          "right": "Winston-Salem, NC"
+        },
+        {
+          "text": "Minors in Computer Science & Mathematics",
+          "right": ""
+        },
+        {
+          "text": "Magna Cum Laude, Honors in Engineering, Dean's List 2019 - 2023, GPA: 3.72",
+          "right": ""
+        }
+      ]
+    }
+  ],
+  "updated": "2026-10-06"
+}
