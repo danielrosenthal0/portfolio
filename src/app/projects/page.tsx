@@ -1,6 +1,5 @@
 
 import Link from "next/link";
-// import plauly from "./Assets/plauly.mp4"
 
 export default function Projects() {
   const ProjectCardData = [
@@ -56,6 +55,12 @@ export default function Projects() {
     id: "metrohedron",
     title: "Metrohedron",
     description: "A web app to track people's travels on the NYC subway system and provide quick stats, heatmaps of frequented stations, and visual representations of travels on a map of the subway",
+    date: "3/2026"
+  },
+  {
+    id: "sixers",
+    title: "Real-Time Sports App",
+    description: "A React Native mobile app with a live NBA data pipeline that tells Sixers fans, with push notifications, whether a game is worth watching right now",
     date: "3/2026"
   },
 ];
