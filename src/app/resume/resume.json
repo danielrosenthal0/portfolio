@@ -14,6 +14,7 @@
         "TypeScript",
         "JavaScript",
         "Python",
+        "C#",
         "SQL",
         "HTML & CSS"
       ]
@@ -26,6 +27,7 @@
         "Node.js",
         "Express",
         "React Native",
+        ".NET",
         "Expo",
         "Tailwind",
         "Prisma",
@@ -36,11 +38,14 @@
       "group": "Cloud and Data",
       "items": [
         "AWS",
+        "Azure",
         "AWS Lambda",
+        "Azure Functions",
         "Vercel",
         "Supabase",
         "PostgreSQL",
         "DynamoDB",
+        "Prisma",
         "Stripe",
         "Auth0",
         "Docker",
@@ -59,7 +64,7 @@
       "bullets": [
         "Architected and built a multi-tenant SaaS platform with a React/TypeScript frontend, including hierarchical tenant isolation and a consistent business logic across application layers for metric calculations, dashboards, and reports",
         "Built an OpenAI-powered agent with a React interface and vector search to provide researchers and conservationists with access to domain-specific knowledge; incorporated serverless malware scanning",
-        "Designing a GiveCampus-to-CRM connector in TypeScript/Node.js for a client processing $10,000+ in daily gifts, using polling, a message queue, backfills, and daily reconciliation for gift and subscription ingestion",
+        "Designed a GiveCampus-to-CRM connector in TypeScript/Node.js for a client processing $10,000+ in daily gifts, using polling, a message queue, backfills, and daily reconciliation for gift and subscription ingestion",
         "Developed a Node.js/TypeScript service triggered by pull request webhooks to capture pull requests, generate AI-powered summaries via OpenAI models, and write formatted notes to a local Obsidian vault via a Cloudflare tunnel",
         "Built a CI/CD deployment pipeline for containerized services, with infrastructure-as-code provisioning for SQL and storage, pre-deploy validation, and a commit-version check that fails mismatched deployments",
         "Built a Node.js/Express API for a 65,000+ alumni network, implementing two-step criteria validation, field-level length enforcement, and partial update tracking with granular error responses",
@@ -100,7 +105,7 @@
       "dates": "Feb 2026 - Present",
       "bullets": [
         "Built a full-stack Spotify playlist intelligence app in Next.js, TypeScript, and Node.js/Express that recommends the best-fit playlist for any new track using a custom scoring algorithm",
-        "Engineered a recommendation engine that ranks playlists via artist overlap, genre alignment, and popularity weighting - a workaround for Spotify's deprecated audio-analysis endpoints"
+        "Engineered a recommendation engine that ranks playlists via artist overlap, genre alignment, and popularity weighting to create a workaround for Spotify's deprecated audio-analysis endpoints"
       ]
     }
   ],
