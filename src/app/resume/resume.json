@@ -107,6 +107,18 @@
         "Built a full-stack Spotify playlist intelligence app in Next.js, TypeScript, and Node.js/Express that recommends the best-fit playlist for any new track using a custom scoring algorithm",
         "Engineered a recommendation engine that ranks playlists via artist overlap, genre alignment, and popularity weighting to create a workaround for Spotify's deprecated audio-analysis endpoints"
       ]
+    },
+    {
+      "id": "metrohedron",
+      "org": "Subway Trip Tracker Application",
+      "title": "Full-Stack Developer",
+      "location": "Personal Project",
+      "dates": "Aug 2025 - Present",
+      "bullets": [
+        "Developing a full-stack web application using Next.js, Postgres, Prisma ORM, Tailwind, Leaflet, and Vercel to track and analyze individual NYC subway travel patterns, providing users with personalized commute statistics and insights",
+        "Implementing secure user authentication with Auth0, enabling users to safely log and manage their subway trips with persistent data storage",
+        "Integrating MTA API to seed comprehensive subway station, line, and shape file data into Postgres database, ensuring numerically and visually accurate trip logging across all NYC transit routes"
+      ]
     }
   ],
   "education": [
